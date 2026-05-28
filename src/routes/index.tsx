@@ -6,6 +6,7 @@ import { Categorie } from "@/components/Categorie";
 import { PercheFlux } from "@/components/PercheFlux";
 import { Contatti } from "@/components/Contatti";
 import { Footer } from "@/components/Footer";
+import { FloatingMailButton } from "@/components/FloatingMailButton";
 import { useReveal } from "@/hooks/use-reveal";
 
 export const Route = createFileRoute("/")({
@@ -42,6 +43,7 @@ function Index() {
         <Contatti />
       </main>
       <Footer />
+      <FloatingMailButton />
     </div>
   );
 }

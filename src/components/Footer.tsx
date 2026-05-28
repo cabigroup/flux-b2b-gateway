@@ -8,7 +8,7 @@ export function Footer() {
           <FluxLogo />
           <div className="space-y-1 font-mono text-[11px] leading-relaxed text-muted-foreground md:text-right">
             <div>Flux S.R.L. — Via Armando Diaz 58, 80047 San Giuseppe Vesuviano (NA)</div>
-            <div>P.IVA e C.F. 10969321214 — PEC: 10969321214@pec.it</div>
+            <div>P.IVA e C.F. 10969321214</div>
             <div>info@fluxsrl.com</div>
           </div>
         </div>
@@ -20,3 +20,4 @@ export function Footer() {
     </footer>
   );
 }
+
