@@ -21,18 +21,12 @@ export function Contatti() {
               →
             </span>
           </a>
-          <div className="mt-12 grid gap-px border border-border bg-border sm:grid-cols-3">
+          <div className="mt-12 grid gap-px border border-border bg-border sm:grid-cols-2">
             <div className="bg-[#0f1011] px-5 py-4">
               <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
                 Email
               </div>
               <div className="mt-1 font-mono text-sm">info@fluxsrl.com</div>
-            </div>
-            <div className="bg-[#0f1011] px-5 py-4">
-              <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-                PEC
-              </div>
-              <div className="mt-1 font-mono text-sm">10969321214@pec.it</div>
             </div>
             <div className="bg-[#0f1011] px-5 py-4">
               <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
@@ -46,3 +40,4 @@ export function Contatti() {
     </section>
   );
 }
+
