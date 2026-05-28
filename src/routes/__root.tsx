@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Riforniamo rivenditori, catene retail e operatori del settore. Stock disponibile, ordini gestiti in giornata, listini su richiesta.",
       },
-      { property: "og:image", content: "https://fluxsrl.com/og-image.svg" },
+      { property: "og:image", content: "https://fluxsrl.com/og-image.jpg" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -96,7 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Riforniamo rivenditori, catene retail e operatori del settore. Stock disponibile, ordini gestiti in giornata, listini su richiesta.",
       },
-      { name: "twitter:image", content: "https://fluxsrl.com/og-image.svg" },
+      { name: "twitter:image", content: "https://fluxsrl.com/og-image.jpg" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
